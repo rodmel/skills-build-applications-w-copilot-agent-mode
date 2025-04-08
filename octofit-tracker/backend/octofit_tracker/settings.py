@@ -142,3 +142,6 @@ CORS_ALLOW_HEADERS = [
     "content-type",
     "authorization",
 ]
+
+# Add a suffix for the Django REST API endpoint in Codespaces
+CODESPACE_API_SUFFIX = "/api/v1/"
